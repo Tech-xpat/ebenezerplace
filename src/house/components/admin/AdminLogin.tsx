@@ -22,9 +22,10 @@ export default function AdminLogin({
         muted
         loop
         playsInline
+        poster="/images/hero-poster.webp"
         className="absolute inset-0 w-full h-full object-cover opacity-75"
       >
-        <source src="/lv_0_20260809121737.webm" type="video/webm" />
+        <source src="/media/hero.webm" type="video/webm" />
       </video>
       <div className="absolute inset-0 bg-gradient-to-b from-admin-purple/90 via-admin-purple/75 to-admin-purple/95" />
       <div className="absolute inset-0 opacity-[0.08] bg-[radial-gradient(circle_at_25%_15%,#D4AF37,transparent_55%)]" />
